@@ -1,0 +1,4 @@
+<!-- weather.wxml -->
+<view class="header">
+    <text class="address">{{address}}</text>
+</view>
