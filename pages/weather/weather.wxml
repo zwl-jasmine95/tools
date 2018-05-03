@@ -1,4 +1,5 @@
 <!-- weather.wxml -->
 <view class="header">
+    <text class="fa fa-flag"></text>
     <text class="address">{{address}}</text>
 </view>
