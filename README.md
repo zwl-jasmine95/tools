@@ -9,11 +9,11 @@
 ## 一、获取当前具体地址信息
 1. 下载微信小程序[JavaScriptSDK](http://lbs.qq.com/qqmap_wx_jssdk/index.html)<br>
 
-(1)申请开发者密钥（key）：[申请密钥](http://lbs.qq.com/console/key.html)
+   (1)申请开发者密钥（key）：[申请密钥](http://lbs.qq.com/console/key.html)
 
-(2)下载微信小程序JavaScriptSDK，微信小程序[JavaScriptSDK v1.0](http://3gimg.qq.com/lightmap/xcx/jssdk/qqmap-wx-jssdk1.0.zip)
+   (2)下载微信小程序JavaScriptSDK，微信小程序[JavaScriptSDK v1.0](http://3gimg.qq.com/lightmap/xcx/jssdk/qqmap-wx-jssdk1.0.zip)
 
-(3)安全域名设置，在“设置” -> “开发设置”中设置request合法域名，添加https://apis.map.qq.com
+   (3)安全域名设置，在“设置” -> “开发设置”中设置request合法域名，添加https://apis.map.qq.com
 (安全域名设置是在[微信公众平台](https://mp.weixin.qq.com/wxopen/devprofile?action=get_profile&token=1188388219&lang=zh_CN)中设置的)
 
 2. 获取当前位置的经纬度
