@@ -10,9 +10,7 @@
 1. 下载微信小程序[JavaScriptSDK](http://lbs.qq.com/qqmap_wx_jssdk/index.html)<br>
 
 (1)申请开发者密钥（key）：[申请密钥](http://lbs.qq.com/console/key.html)
-
 (2)下载微信小程序JavaScriptSDK，微信小程序[JavaScriptSDK v1.0](http://3gimg.qq.com/lightmap/xcx/jssdk/qqmap-wx-jssdk1.0.zip)
-
 (3)安全域名设置，在“设置” -> “开发设置”中设置request合法域名，添加https://apis.map.qq.com
 (安全域名设置是在[微信公众平台](https://mp.weixin.qq.com/wxopen/devprofile?action=get_profile&token=1188388219&lang=zh_CN)中设置的)
 
@@ -81,6 +79,7 @@ Page({
     (2) 勾选 [Base64 encode]、[TTF]，完成后点击 [Convert]<br>
     (3) 点击 [Download]。<br>
     (4) 打开下载文件中的<b>stylesheet.css</b>文件，复制里面的内容，替换掉<b>font-awesome.wxss</b>文件里的第一段代码：
+    
     ```css
     /*被替换的代码*/
     @font-face {
